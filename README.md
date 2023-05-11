@@ -16,7 +16,9 @@ This repository contains a distributed file retrieval system implemented in C, f
 ## Prerequisites 🔧
 
 GCC (GNU Compiler Collection)
+<br>
 GNU Make
+<br>
 POSIX-compliant system (Linux, macOS, or WSL on Windows)
 
 ## Compilation 🛠️
