@@ -5,6 +5,14 @@
 
 This repository contains a distributed file retrieval system implemented in C, featuring a client-server architecture. Clients can request a file or a set of files from the server, which searches for the requested files in its file directory rooted at its home directory. The server returns a compressed tarball (.tar.gz) of the requested files to the client, or an appropriate message if the files are not found. The system supports multiple clients connecting from different machines, processing client requests concurrently using separate child processes.
 
+## Compatibility ✅
+
+This project has been tested on the following operating systems:
+
+- Garuda Linux
+
+It is expected to work on other POSIX-compliant systems as well, such as other Linux distributions, macOS, and WSL on Windows.
+
 ## Features 🌟
 
 - Search and retrieve files based on various criteria: filename, size range, date range, file extensions
