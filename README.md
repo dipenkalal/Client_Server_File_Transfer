@@ -43,15 +43,11 @@ To connect to the server and send a request, run the following command:
 
 
 ## List of Client Commands 📜
+```
 findfile <filename>
-  <br>
 sgetfiles <size1> <size2> <-u>
-  <br>
 dgetfiles <date1> <date2> <-u>
-  <br>
 getfiles <file1> <file2> ... <file6> <-u>
-  <br>
 gettargz <extension_list> <-u>
-  <br>
 quit
-<br>
+```
